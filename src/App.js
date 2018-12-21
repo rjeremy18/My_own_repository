@@ -8,9 +8,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
+         <h1 className="App-title">Welcome to React</h1>
           <a
             className="App-link"
             href="https://reactjs.org"
@@ -20,6 +18,9 @@ class App extends Component {
             Learn React
           </a>
         </header>
+		<p className="App-intro">
+          I was changed on the Feature branch.
+        </p>
       </div>
     );
   }
